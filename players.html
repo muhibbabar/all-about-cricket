@@ -2,16 +2,23 @@
 <html>
 
 <head>
-    <title>Cricket Players</title>
+    <title>Cricket Tournaments</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
+<body>
+  <button onclick="document.body.classList.toggle('dark')" 
+style="position:fixed;top:10px;right:10px;padding:8px 12px;">🌙</button>
 <body>
     <div class="navbar">
+        <a href="index.html" class="logo-link">
+    <img src="images/logo.png" alt="Cricket Logo" class="logo">
+  </a>
         <a href="index.html">Home</a>
         <a href="players.html">Players</a>
         <a href="tournaments.html">Tournaments</a>
     </div>
+    <div id="navbar-container"></div>
     <div id="navbar-container"></div>
 
     <div class="content">
@@ -24,8 +31,171 @@
             <li><strong>Ben Stokes</strong> (England) – Match-winner and warrior.</li>
         </ul>
     </div>
+    
+<h2>These are the main players of India!</h2>
+<div class="players-container">
+  <!--Virat Kohli-->
+    <div class="player-card">
+        <img
+            src="https://media.gettyimages.com/id/2200260517/photo/india-portraits-icc-champions-trophy-2025.webp?s=1024x1024&w=gi&k=20&c=PSYBQMWs8GL1SZNm-e3V2EUpAANYycafXot9hqYGAnE=">
+        <h2>Virat Kohli</h2>
+        <p><strong>Team:</strong>India</p>
+        <p><strong>Matches:</strong>302 ODIs</p>
+        <p><strong>Runs:</strong>14,181</p>
+        <p><strong>Average:</strong>57.9</p>
+        <p><strong>Centuries:</strong>51</p>
+        <div class="highlight">🏏 Player of the Week</div>
+    </div>
+    <!--Rohit Sharma-->
+    <div class="player-card">
+        <img
+            src="https://media.gettyimages.com/id/2200260514/photo/india-portraits-icc-champions-trophy-2025.jpg?s=1024x1024&w=gi&k=20&c=8S3XhZYdaXI6qIOlpUinGbZp0124KrHuPJXIiyadRl0=">
+        <h2>Rohit Sharma</h2>
+        <p><strong>Team:</strong>India</p>
+        <p><strong>Matches:</strong>273 ODIs</p>
+        <p><strong>Runs:</strong>11,168</p>
+        <p><strong>Average:</strong>48.8</p>
+        <p><strong>Centuries:</strong>32</p>
+        <div class="highlight">🔥Batting Star</div>
+    </div>
+    <!--Jasprit Bumrah-->
+    <div class="player-card">
+        <img
+            src="https://media.gettyimages.com/id/2155145910/photo/india-portraits-icc-mens-t20-cricket-world-cup-west-indies-usa-2024.webp?s=1024x1024&w=gi&k=20&c=oBp7StIbbRhZn-qdDyoQI62s_su0vWzjSe2J5IFfRgk=">
+        <h2>Jasprit Bumrah</h2>
+        <p><strong>Team:</strong>India</p>
+        <p><strong>Matches:</strong>89 ODIs</p>
+        <p><strong>Wickets:</strong>149</p>
+        <p><strong>Best Bowling:</strong>6/19</p>
+        <p><strong>Avg:</strong>7.6</p>
+        <div class="highlight">💥Strike Bowler</div>
+    </div>
+</div>
+<h2>These are the main players of Pakistan!</h2>
+<div class="players-container">
+    <!-- Babar Azam -->
+    <div class="player-card">
+        <img
+            src="https://media.gettyimages.com/id/2200095524/photo/pakistan-portraits-icc-champions-trophy-2025.webp?s=1024x1024&w=gi&k=20&c=mbL9PoyLcDJ7YkQ9Ddut0R9_VQLMo3yeZs5yAjm07j8=">
+        <h2>Babar Azam</h2>
+        <p><strong>Team:</strong> Pakistan</p>
+        <p><strong>Matches:</strong> 119 ODIs</p>
+        <p><strong>Runs:</strong> 5729</p>
+        <p><strong>Average:</strong> 56.7</p>
+        <p><strong>Centuries:</strong> 19</p>
+        <div class="highlight">🏏 Player of the Week</div>
+    </div>
+    <!-- Mohammad Rizwan -->
+    <div class="player-card">
+        <img
+            src="https://media.gettyimages.com/id/2200095547/photo/pakistan-portraits-icc-champions-trophy-2025.webp?s=612x612&w=gi&k=20&c=5J3-l_Hgm5xc1Ng8VxNYrVHg4mDPpUGMkKl89pBM8Kc=">
+        <h2>Mohammad Rizwan</h2>
+        <p><strong>Team:</strong> Pakistan</p>
+        <p><strong>Matches:</strong> 72 ODIs</p>
+        <p><strong>Runs:</strong> 2049</p>
+        <p><strong>Average:</strong> 37.7</p>
+        <p><strong>Centuries:</strong> 2</p>
+        <div class="highlight">🔥 Wicket-Keeper Star</div>
+    </div>
+    <!-- Shaheen Afridi -->
+    <div class="player-card">
+        <img
+            src="https://media.gettyimages.com/id/2200095505/photo/pakistan-portraits-icc-champions-trophy-2025.webp?s=1024x1024&w=gi&k=20&c=NAMqSpCHmnMWkdJhPwcMuEPYDe2lzk2GMUhG0zMtPIk=">
+        <h2>Shaheen Afridi</h2>
+        <p><strong>Team:</strong> Pakistan</p>
+        <p><strong>Matches:</strong> 53 ODIs</p>
+        <p><strong>Wickets:</strong> 104</p>
+        <p><strong>Best Bowling:</strong> 6/35</p>
+        <p><strong>Avg:</strong> 23.9</p>
+        <div class="highlight">💥 Strike Bowler</div>
+    </div>
+</div>
+</div>
+<div class="container">
+        <h1>Fun facts about Cricket players🏏!</h1>
+        <p>Choose your favourite player below!</p>
 
-    <script src="navbar.js"></script>
+        <div class="tabs">
+            <button class="tab-button" onclick="openTab('tab1')" style="background-color: #008000;">
+                Babar Azam
+            </button>
+            <button class="tab-button" onclick="openTab('tab2')" style="background-color: #0000FF;">
+               Virat Kohli
+            </button>
+         
+<button class="tab-button" onclick="openTab('tab3')" style="background-color:#008000 ;">
+    Mohammed Rizwan
+</button>
+
+    <button class="tab-button" onclick="openTab('tab4')" style="background-color: #0000FF;">
+        Rohit Sharma </button>
+
+
+    <button class="tab-button" onclick="openTab('tab5')" style="background-color: #008000;">
+        Shaheen Shah Afridi</button>
+
+        <button class="tab-button" onclick="openTab('tab6')" style="background-color: #0000FF;">
+        Jasprit Bumrah</button>
+
+        <button class="tab-button" onclick="openTab('tab7')" style="background-color:#008000 ;">
+        Saim Ayub</button>
+
+        <button class="tab-button" onclick="openTab('tab8')" style="background-color:#0000FF ;">
+        Shubman Gill</button>
+
+        <button class="tab-button" onclick="openTab('tab9')" style="background-color:#008000 ;">
+        Fakhar Zaman</button>
+
+
+
+                
+            
+        </div>
+<div id="tab1" class="tab-content">Babar Azam is known for his consistent batting performance and holds several records in ODI and T20 formats. He is the only cricketer to score 5 consecutive centuries in a single country (UAE) and is the fastest to reach 1000 T20I runs, among other achievements. He has also been the top ODI scorer for Pakistan in multiple years and the top Test scorer in other years.</div>
+
+
+        <div id="tab2" class="tab-content">Kohli was highest run scorer of 2023 ICC World Cup and was named Player of the Tournament.
+                Kohli is only player to have won two Player of the Tournament in the history of the T20
+                World Cup, in 2014 and 2016 editions. At 2023 World Cup Semi Final against New Zealand.</div>
+
+        <div id="tab3" class="tab-content">Mohammad Rizwan is a prominent Pakistani cricketer, known for his aggressive batting and wicketkeeping skills. He holds the record for the most runs in a calendar year in T20 Internationals, scoring 1326 runs in 26 innings in 2021.He's also the second wicketkeeper-batter after Brendon McCullum to score centuries in all three formats of international cricket.
+        </div>
+ <div id="tab4" class="tab-content">Sharma is the only player to have scored three double hundreds in ODI cricket; no other player has
+                scored even two. He also holds the record for most international sixes across all formats, most sixes in
+                World Cups, and the highest individual score in an ODI!
+ </div>
+    <div id="tab5" class="tab-content">Shaheen Shah Afridi is a Pakistani 
+
+                                            cricketer who has made
+                significant contributions to the sport. He is the youngest  cricketer
+                to take a five-wicket haul in a World Cup match, and holds the
+                record for best bowling figures by a Pakistani bowler on his
+                first-class debut match.
+    </div>
+
+    <div id="tab6" class="tab-content">Bumrah was born into a Sikh family in Ahmedabad, Gujarat. He lost his father at the age of five, and
+                the family faced financial struggles in his early years. Bumrah has had a reputation for bowling
+                fast since his childhood days.
+    </div>
+
+     <div id="tab7" class="tab-content">Saim Ayub is a Pakistani cricketer known for his aggressive left-handed batting style. He comes from a cricketing family; his father and uncle played at the club level, and he was introduced to the game early on with tape ball cricket. Ayub's cricketing idol is Saeed Anwar, and he aims to emulate Anwar's style and match-winning performances. He made his ODI debut less than two months before December 22, 2024, and has already scored three centuries in the format. He is also known for his strong performances in the Pakistan Super League (PSL). 
+    </div>
+
+    <div id="tab8" class="tab-content">Shubman Gill is a young and talented Indian cricketer known for his elegant batting style and numerous records. Some fun facts about him include being the youngest player to score a double century in ODIs, the fastest to reach 2000 and 2500 ODI runs, and being the player of the tournament in the 2018 Under-19 Cricket World Cup. He is also known by the nickname "Kaka" which is a Punjabi term for "young boy".  
+    </div>
+
+    <div id="tab9" class="tab-content">Fakhar Zaman is a Pakistani cricketer known for his aggressive batting style and record-breaking performances. He is the first Pakistani batsman to score a double century in ODIs. He also holds the record for being the fastest to 1000 ODI runs. Additionally, he is recognized for his high backlift and reliance on timing to score runs. 
+    </div>
+  <script src="index.js"></script>
+  <script>
+
+        function openTab(tabId) {
+            const contents = document.querySelectorAll(".tab-content");
+            contents.forEach((content) => content.classList.remove("active"));
+
+            document.getElementById(tabId).classList.add("active");
+        }
+    </script>
 </body>
 
 </html>
