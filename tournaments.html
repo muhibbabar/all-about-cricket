@@ -4,8 +4,11 @@
 <head>
     <title>Cricket Tournaments</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-
+<body>
+  <button onclick="document.body.classList.toggle('dark')" 
+style="position:fixed;top:10px;right:10px;padding:8px 12px;">🌙</button>
 <body>
     <div class="navbar">
         <a href="index.html" class="logo-link">
@@ -27,6 +30,19 @@
             <li><strong>Asia Cup</strong> – Regional tournament featuring Asian teams.</li>
         </ul>
     </div>
+    <div class="score-card">
+    <div class="team">
+      <h2>India</h2>
+      <p>Runs: 245/6</p>
+      <p>Overs: 40.3</p>
+    </div>
+    <div class="team">
+      <h2>Australia</h2>
+      <p>Runs: 240/10</p>
+      <p>Overs: 49.5</p>
+    </div>
+  </div>
+
 
     <script src="navbar.js"></script>
 </body>
